@@ -1,0 +1,46 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .home-content {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .home-left,
+  .home-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .home-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .home-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

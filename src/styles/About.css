@@ -1,0 +1,101 @@
+.about {
+    padding: 20px;
+  }
+  
+  .about-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .summary {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2em;
+    margin: 20px 0 10px;
+    text-align: center;
+  }
+  
+  .work-experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items in the container */
+  }
+  
+  .experience-block {
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px; /* Set a fixed width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Animation on hover */
+  }
+  
+  .experience-block:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  .experience-block.left {
+    align-self: flex-start; /* Align left block */
+  }
+  
+  .experience-block.right {
+    align-self: flex-end; /* Align right block */
+  }
+  
+  .job-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .company {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .duration {
+    font-style: italic;
+    color: #777;
+  }
+  
+  .responsibilities {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items in the container */
+  }
+  
+  .skill-block {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Animation on hover */
+  }
+  
+  .skill-block:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  .icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+  }
+  
+  .skill-name {
+    font-size: 1.2em;
+  }
+  
