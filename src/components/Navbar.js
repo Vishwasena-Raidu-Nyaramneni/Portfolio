@@ -5,7 +5,7 @@ import '../styles/Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1>Vishwasena Raidu</h1>
+      <h1>Vishwasena Raidu </h1>
       <ul className="navbar-links">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
